@@ -46,7 +46,7 @@ def country_labels():
     "RS" : "Serbia",
     "TR" : "Turkey",
     "UA" : "Ukraine",
-    "XK" : "Kosovo*",
+    "XK" : "Kosovo",
     "GE" : "Georgia",
     "AD" : "Andorra",
     "BY" : "Belarus",
