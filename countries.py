@@ -4,7 +4,7 @@ def country_labels():
     with full country names.
     """
 
-    label_dict = {"BE" : "Belgium",
+    country_dict = {"BE" : "Belgium",
     "BG" : "Bulgaria",
     "CZ" : "Czechia",
     "DK" : "Denmark",
@@ -56,4 +56,27 @@ def country_labels():
     "AM" : "Armenia",
     "AZ" : "Azerbaijan"}
 
-    return label_dict
+    return country_dict
+
+def hicp_labels():
+    hicp_dict = {'CP00':'All-items HICP',
+        'CP01':'Food and non-alcoholic beverages',
+        'CP03':'Clothing and footwear',
+        'CP04':'Housing, water, electricity, gas and other fuels',
+	'CP06':'Health',
+	'CP0611':'Pharmaceutical products',
+	'CP0621':'Medical services',
+	'CP0711':'Motor cars',
+	'CP0713':'Bicycles',
+	'CP081':'Postal services',
+	'CP0941':'Recreational and sporting services',
+	'CP0942':'Cultural services',
+	'CP10102':'Primary education',
+	'CP102':'Secondary education',
+	'CP104':'Tertiary education',
+	'CP12322':'Articles for babies',
+	'CP12401':'Child care services',
+	'CP126':'Financial services n.e.c.',
+	'CP12701':'Administrative fees'}
+
+    return hicp_dict
